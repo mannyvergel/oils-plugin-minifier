@@ -1,0 +1,23 @@
+{
+  "name": "oils-plugin-minifier",
+  "version": "1.0.0",
+  "description": "Mainly css and js minifier, but can also be used for images and html files (oils plugin)",
+  "main": "plugin-minifier.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "minifier",
+    "css",
+    "js",
+    "oils"
+  ],
+  "private": false,
+  "author": "Manny Vergel",
+  "license": "MIT",
+  "dependencies": {
+    "fast-crc32c": "^2.0.0",
+    "fs-extra": "^9.1.0",
+    "minify": "^5.2.0"
+  }
+}
